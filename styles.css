@@ -1,12 +1,29 @@
 
 @font-face {
-    font-family: 'Ubuntu_Reg';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Ubuntu_Reg'), url(https://dim-pan.github.io/Entrepreneuership-Pretotype/fonts/ubuntu_reg.ttf) format('truetype');
+    font-family: Ubuntu_Reg;
+    src: url(https://dim-pan.github.io/Entrepreneuership-Pretotype/fonts/ubuntu_reg.ttf) format('truetype');
 }
 
 
 h1 {
-    font-family: "Ubuntu_Reg";
+    font-family: Calibri;
+}
+
+h3 {
+    font-family: Calibri;
+    font-style: italic;
+}
+
+.container {
+    margin:auto;
+    position:absolute;
+    left:45%;
+    top:3%;
+}
+
+.heading {
+    margin:auto;
+    position:absolute;
+    top:30%;
+    left:5%;
 }
