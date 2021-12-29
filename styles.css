@@ -3,10 +3,10 @@
     font-family: 'Ubuntu_Reg';
     font-style: normal;
     font-weight: 400;
-    src: local('Ubuntu_Reg'), url(https://dim-pan.github.io/Entrepreneuership-Pretotype/fonts/ubuntu_reg.ttf) format('ttf');
+    src: local('Ubuntu_Reg'), url(https://dim-pan.github.io/Entrepreneuership-Pretotype/fonts/ubuntu_reg.ttf) format('truetype');
 }
 
 
-h1{
+h1 {
     font-family: "Ubuntu_Reg";
 }
