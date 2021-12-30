@@ -1,12 +1,9 @@
 
-@font-face {
-    font-family: Ubuntu_Reg;
-    src: url(https://dim-pan.github.io/Entrepreneuership-Pretotype/fonts/ubuntu_reg.ttf) format('truetype');
-}
 
-
-h1 {
+#mainheader {
     font-family: Calibri;
+    margin:0;
+    text-align: center;
 }
 
 h3 {
@@ -14,23 +11,112 @@ h3 {
     font-style: italic;
 }
 
+body {
+    margin:0;
+    padding:0;
+    font-family: Calibri;
+}
+
 .container {
-    position: relative;
-    float: left;
-    width:80%;
+    width: 100vw;
+    height: 100vh;
+    font-family: Calibri;
+
+    display: grid;
+
+    grid-template-columns: 1fr 280px 1fr;
+    grid-template-rows: 50px 1fr 100px;
+
+    gap: 10px;
+
+    padding:10px;
+    box-sizing: border-box;
+}
+
+.container div {
+    padding: 10px;
+    /*border: 2px solid #000000;*/
+}
+
+.header {
+    grid-column-start:2;
+    grid-column-end:3;
+}
+
+.content-large {
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end: span 1;
+    background-image: url('https://dim-pan.github.io/Entrepreneuership-Pretotype/iphonescreen.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30px 30px 1fr 1fr 1fr 65px;
+
+    /*gap:10px;
+    padding:10px;
+    box-sizing:border-box;*/
+}
+
+.toptext {
+    grid-column-end:span 2;
+}
+
+.toptext p {
+    text-align:center;
+    margin:0;
+    font-size:14px;
+    padding-left:10px;
+    padding-right:10px;
+    color:white;
+}
+
+.content-small {
+
+}
+
+.specialtext {
+    text-align:center;
+    padding-top:40px;
+    font-style:normal;
+    color: white;
+}
+
+.homebar {
+    grid-column-start:1;
+    grid-column-end: span 2;
+    margin-bottom:14px;
+    margin-left:10px;
+    margin-right:10px;
+    background-color:black;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:0px;
+
+}
+
+
+.navicon:first-child {
+
+}
+
+.navicon {
+
+}
+
+.navicon:last-child {
+
+}
+
+.navicon img {
+    width:100%;
     height:100%;
-}
-
-.screen {
-    margin:auto;
-    position:absolute;
-    left:45%;
-    top:3%;
-}
-
-.heading {
-    margin:auto;
-    position:absolute;
-    top:30%;
-    left:5%;
+    margin:0px;
+    object-fit:cover;
+    overflow:hidden;
 }
