@@ -54,8 +54,8 @@ body {
     background-position: center;
 
     display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 30px 30px 1fr 1fr 1fr 65px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px 50px 1fr 65px;
 
     /*gap:10px;
     padding:10px;
@@ -63,35 +63,75 @@ body {
 }
 
 .toptext {
-    grid-column-end:span 2;
+
 }
 
 .toptext p {
     text-align:center;
     margin:0;
-    font-size:14px;
+    font-size:12px;
     padding-left:10px;
     padding-right:10px;
     color:white;
 }
 
-.content-small-left {}
-.content-small-right {}
-
-.content-small-left img {
-    width:80px;
-    height:80px;
-    position:relative;
-    top:30px;
-    left:25px;
+.listcontainer {
+    overflow:scroll;
 }
 
-.content-small-right img {
-    width:80px;
-    height:80px;
+.productcontainer {
+    height:auto;
+    /*border: 1px solid white;*/
+
+    display:grid;
+    grid-template-columns: 80px 1fr;
+    grid-template-rows: 30px 1fr;
+}
+
+.productheader {
+    grid-column-end: span 2;
+}
+
+.productheader p {
+    text-align:left;
+    margin:0;
+    font-size:16px;
     position:relative;
-    top:30px;
+    bottom:5px;
+    color:white;
+}
+
+.productimage {}
+
+.productimage img {
+    width:80px;
+    height:auto;
+    position:relative;
+    bottom:10px;
+}
+
+.productdesc {
+    position:relative;
     left:10px;
+    bottom:20px;
+}
+
+.productdesc p {
+    color:white;
+}
+
+.productdesc button {
+    background-color: #2173a8;
+    border: 2px solid white;
+    display: inline-block;
+    transition-duration: 0.4s;
+    color:white;
+}
+
+.productdesc button:hover {
+    background-color:white;
+    border: 2px solid #2173a8;
+    color: #2173a8;
 }
 
 .specialtext {
@@ -103,7 +143,7 @@ body {
 
 .homebar {
     grid-column-start:1;
-    grid-column-end: span 2;
+    grid-column-end: span 1;
     margin-bottom:14px;
     margin-left:10px;
     margin-right:10px;
