@@ -55,7 +55,7 @@ body {
 
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 30px 50px 1fr 65px;
+    grid-template-rows: 30px 40px 35px 1fr 65px;
 
     /*gap:10px;
     padding:10px;
@@ -73,6 +73,11 @@ body {
     padding-left:10px;
     padding-right:10px;
     color:white;
+}
+
+.toptext b {
+    color:#2173a8;
+    font-size:16px;
 }
 
 .listcontainer {
@@ -95,7 +100,7 @@ body {
 .productheader p {
     text-align:left;
     margin:0;
-    font-size:16px;
+    font-size:17px;
     position:relative;
     bottom:5px;
     color:white;
@@ -116,15 +121,28 @@ body {
     bottom:20px;
 }
 
+.productdesc p:first-child {
+    color:white;
+    font-style:italic;
+    font-size:15px;
+    margin-top:10px;
+    margin-bottom:3px;
+}
+
 .productdesc p {
     color:white;
+    font-size:15px;
+    margin-top:3px;
+    margin-bottom:3px;
 }
 
 .productdesc button {
     background-color: #2173a8;
+    margin-top:10px;
     border: 2px solid white;
     display: inline-block;
     transition-duration: 0.4s;
+    border-radius:10px;
     color:white;
 }
 
