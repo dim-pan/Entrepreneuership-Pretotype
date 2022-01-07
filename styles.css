@@ -155,4 +155,5 @@ body {
 
 .feedbacktext a:hover {
     color:#2173a8;
+    transition-duration: 0.3s;
 }
