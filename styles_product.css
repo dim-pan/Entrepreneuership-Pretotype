@@ -71,7 +71,7 @@ body {
 .toptext p {
     text-align:center;
     margin:0;
-    font-size:25px;
+    font-size:22px;
     padding-left:30px;
     padding-right:30px;
     position:relative;
@@ -81,7 +81,7 @@ body {
 
 .toptext b {
     color:#2173a8;
-    font-size:32px;
+    font-size:30px;
 }
 
 .listcontainer {
